@@ -1,0 +1,264 @@
+body{background-color: rgba(214, 240, 238, 0.925);margin: 0;}
+.head{
+    margin: 0;
+    padding: 0 10px 0 0px;
+    list-style-type: none;
+    overflow: hidden;
+    top: 0;
+    position: sticky;
+    background-color: rgb(57, 236, 236);
+    background-image: linear-gradient(rgb(57, 236, 236),rgb(146, 255, 255));
+}
+.head li a,ul.head li img{float: left;}
+ul.head li img{
+    margin: 2px 2px 2px 0;
+    border: rgb(186, 189, 187) solid 3px;
+    border-radius: 8px;
+}
+.head li a{
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 39px;
+    text-decoration: none;
+    padding:10px 5px 10px 5px;
+    margin: 3px 5px 1px 5px;
+    text-align: center;
+    border: rgb(182, 253, 235) solid 2px;
+    border-radius: 30px;
+    background-image: linear-gradient(rgb(57, 236, 236),rgb(9, 119, 119));
+}
+
+#custmark{
+    float: left;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin:10px 0 0px 0;font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: thistle;
+    color: rgb(23, 106, 107);
+}
+#regs a{
+    border-radius: 0px; padding: 5px 5px 5px 5px;
+    font-family: 'Ubuntu', sans-serif; margin:8px 0 0 0;
+    background-color: rgba(100, 186, 189, 0.884);
+    background-image: none;
+}
+
+
+#regs a:hover{
+    border-radius: 0px;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: rgb(45, 153, 153);
+    background-image: linear-gradient( rgb(171, 209, 209), rgb(110, 196, 196));
+} 
+
+.head li a:hover{
+    background-color: rgb(34, 197, 184);
+    background-image: none;
+    color: rgba(71, 71, 71, 0.781);
+}
+
+.row{
+    
+    width: 100%;
+}
+.col{
+    padding: none; 
+}
+#jumbotron{
+    border-radius: 12cm;
+    border: black solid 5px;
+    margin: 10px 0 0 0;
+    height: 270px;
+    box-shadow: 0px -5px 10px 10px #6491d4;
+}
+
+p{
+    font-size: larger;
+    color: black;
+}
+h1{
+    font-family: 'Secular One', sans-serif;
+    font-size: 40px;
+    color: rgb(95, 151, 197); 
+    text-shadow: 2px 2px 5px rgb(13, 231, 104);
+}
+h2{
+    font-size: larger;
+    color: black;
+    font-family: 'Secular One', sans-serif;
+}
+.cont{
+    background-color: rgba(44, 225, 231, 0.856);
+    margin-top: 0;
+}
+#title_about{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 0;
+    background-color: rgba(15, 178, 184, 0.856);
+    padding-bottom: 10px;
+    border-bottom: gold ridge 6px;
+    border-top: gold ridge 6px;
+}
+#about{
+    padding: 0 5px 0 5px;
+    width: 547px;
+    font-weight: 700;
+}
+#gall{
+    margin-top: 40px;
+    width: 330px;
+    margin-left:30px ;
+    border: ridge rgba(243, 241, 235, 0.849) 3px;
+}
+#gall_aboutUs{
+    margin-top: 40px;
+    width: 150px;
+    margin-left:30px ;
+    border: ridge rgba(243, 241, 235, 0.849) 3px;
+}
+#gall img{
+    width: 330px;
+    height: 251px;  
+}
+#gall_aboutUs img{
+    width: 150px;
+    height: 200px;  
+}
+#titlDesc{
+    font-family: 'Ubuntu', sans-serif; 
+    color: rgb(18, 93, 95);
+    
+    padding-right: 225.5px;
+    padding-bottom: 20px;
+    
+    
+    background-image: linear-gradient(to right,rgba(44, 202, 194, 0.644),rgba(107, 107, 182, 0.301));
+}
+#titlDesc_aboutUs{
+    font-family: 'Ubuntu', sans-serif; 
+    color: rgb(18, 93, 95);
+    
+    padding-right: 105px;
+    padding-bottom: 20px;
+    
+    
+    background-image: linear-gradient(to right,rgba(44, 202, 194, 0.644),rgba(107, 107, 182, 0.301));
+}
+
+#title_event{
+    text-align: center;
+    font-size: 45px;
+    margin-bottom: 0;
+    margin-top: 300px;
+    background-color: rgba(15, 178, 184, 0.856);
+    padding-bottom: 10px;
+    border-bottom: gold ridge 6px;
+    border-top: gold ridge 6px;
+}
+#moreEvent{
+    margin: 550px 0 0px 0;
+    height: 80px;
+    text-align: center;
+    background-color: rgba(61, 226, 231, 0.856);
+    background-image: linear-gradient(rgba(61, 226, 231, 0.856),rgba(232, 241, 241, 0.856));
+    border-bottom: gold ridge 6px;
+}
+#moreEventbutton{
+    margin: 10px 300px 5px 590px;border: 2px black solid; height: 50px;width: 200px;border-radius: 2cm;background-image: linear-gradient(rgb(196, 196, 71),white);
+}
+#moreEventbutton:hover{
+    border: 2px black solid; height: 50px;width: 200px;border-radius: 2cm;background-image: linear-gradient(rgb(248, 248, 0),rgb(195, 197, 57));
+}
+#regform{
+    margin: 0px 0 50px 0;
+    width: 234px;
+    height: 10.6cm;
+    text-align: center;
+    background-color: rgba(43, 135, 138, 0.856);
+    border-bottom: gold ridge 6px;
+    padding: 0 0 0 50px;
+    float: left;
+}
+#contactform{
+    margin: 0px 0 50px 0;
+    width: 995px;
+    height: 10.6cm;
+    text-align: center;
+    background-color: rgba(43, 135, 138, 0.856);
+    border-bottom: gold ridge 6px;
+    padding: 0 0 0 50px;
+    float: right;
+}
+
+#sent{
+    margin-left: 373px;
+    height: 25px;
+    width: 70px;
+    background-image: linear-gradient(rgb(207, 189, 114), rgb(223, 192, 57));
+}
+#submit{
+    background-image: linear-gradient(rgb(207, 189, 114), rgb(223, 192, 57));
+}
+#sent:focus, #submit:focus{
+    outline: none;
+}
+#email, #textar{
+    background-color:rgb(73, 217, 224);
+    color: black;
+}
+#email:focus, #textar:focus{
+    background-color:rgb(211, 244, 250);
+    outline: none;
+}
+
+.ol_aboutUs{
+    padding: 10px 3px 10px 3px;
+    margin: 0 0 0 0;
+}
+#jadwal_kegiatan{
+    border-collapse: collapse;
+    font-size: 30px;
+    width: 100%;
+}
+#jadwal_kegiatan td{
+    padding-right: 100px;
+}
+#jadwal_kegiatan tr:first-child{
+    padding-right: 100px;
+    background-color: rgb(130, 202, 190);
+}
+#jadwal_kegiatan tr{
+    padding-right: 100px;
+    background-color: rgba(214, 240, 238, 0.925);
+}
+#title_aboutUs{
+    font-family: 'Sansita Swashed', cursive;
+    font-weight: bold;
+}
+#title_aboutUs img{
+    margin-right: 10px;
+}
+button{
+    border:none;
+    display:inline-block;
+    padding:8px 16px;
+    vertical-align:middle;
+    overflow:hidden;
+    text-decoration:none;
+    color:inherit;
+    background-color:inherit;
+    text-align:center;
+    cursor:pointer;
+    white-space:nowrap;
+    
+}
+.butt_disp_left{position:absolute;top:50%;left:0%;transform:translate(0%,-50%);-ms-transform:translate(-0%,-50%);width: 30px;
+    height: 100px;background-color: rgba(141, 146, 148, 0.514);}
+.butt_disp_right{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%);width: 30px;
+    height: 100px;background-color: rgba(141, 146, 148, 0.514);}
+.butt_disp_right:hover{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%);width: 30px;
+    height: 100px;background-color: rgb(60, 91, 94);}
+.butt_disp_left:hover{position:absolute;top:50%;right:0%;transform:translate(0%,-50%);-ms-transform:translate(0%,-50%);width: 30px;
+    height: 100px;background-color: rgb(60, 91, 94);}
+    

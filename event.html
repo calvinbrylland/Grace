@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Event</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/cssLayout.css">
+        <script src="js/MyjavaScript.js">
+        </script>
+        <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&family=Secular+One&family=Source+Sans+Pro:wght@300&family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+        <style>
+            .head li a{
+                font-family: 'Sansita Swashed', cursive;
+            }
+            #regs a{
+                font-family: 'Ubuntu', sans-serif; 
+            }
+            #title_about{
+                font-family: 'Sansita Swashed', cursive;
+            }
+            #about,#event,#seeMoreEvent a{
+                font-family: 'Source Sans Pro', sans-serif;
+            }
+            .mySlides {display:none;}
+        </style>
+    </head>
+    <body>
+        <div class="head">
+                <ul class="head">
+                    <ul id="custmark"><li>U</li><li>K</li><li>M</li></ul>
+                    <li><img src="img/LogoUKM.png" alt="" height="65px"></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="event.html">Event</a></li>
+                    <li><a href="contactUs.html">Contact us</a></li>
+                    <li><a href="aboutUs.html">About us</a></li>
+                    <embed width="0" height="0" src="Testing(only work in microsoft edge) engga saya hanya coba coba kayak enak gitu ngoding sambil denger lagu tapi embbed ke debugnya sir lucky.mp3">
+                    <li id="regs" style="float: right;"><a id="regs" href="index.html #regform">Registration</a></li>
+                </ul>
+        </div>
+        <div class="row">
+            <div class="cont_disp">
+                <img class="mySlides" src="img/slide1.jpeg" style="width:100%;height: 15cm;">
+                <img class="mySlides" src="img/slide2.jpeg" style="width:100%;height: 15cm;">
+                <img class="mySlides" src="img/slide3.jpg" style="width:100%;height: 15cm;">
+                <img class="mySlides" src="img/slide4.jpg" style="width:100%;height: 15cm;">
+                <img class="mySlides" src="img/slide5.jpeg" style="width:100%;height: 15cm;">
+                <img class="mySlides" src="img/slide6.jpeg" style="width:100%;height: 15cm;">
+                <img class="mySlides" src="img/slide7.jpeg" style="width:100%;height: 15cm;">
+                <img class="mySlides" src="img/identic_person.jpeg" style="width:100%;height: 15cm;">
+        
+              
+                <button class="butt_disp_left" onclick="plusDivs(-1)">&#10094;</button>
+                <button class="butt_disp_right" onclick="plusDivs(1)">&#10095;</button>
+              </div>
+              
+              <script>
+              var slideIndex = 1;
+              showDivs(slideIndex);
+              
+              function plusDivs(n) {
+                showDivs(slideIndex += n);
+              }
+              
+              function showDivs(n) {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                if (n > x.length) {slideIndex = 1}
+                if (n < 1) {slideIndex = x.length}
+                for (i = 0; i < x.length; i++) {
+                  x[i].style.display = "none";  
+                }
+                x[slideIndex-1].style.display = "block";  
+              }
+              var myIndex = 0;
+                carousel();
+                
+                function carousel() {
+                  var i;
+                  var x = document.getElementsByClassName("mySlides");
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                  }
+                  myIndex++;
+                  if (myIndex > x.length) {myIndex = 1}    
+                  x[myIndex-1].style.display = "block";  
+                  setTimeout(carousel, 4000);
+                }
+              </script>
+              
+            <div  id="chm" style="border-top: ridge goldenrod 6px;border-bottom: ridge goldenrod 6px;background-color: rgb(16, 112, 150);"><div ><p id="title_aboutUs" style="border: black 0px solid;padding: 4px 4px 4px 4px;"><img src="img/Christmas icon.png" height="40px">Christmas Eve</p></div>
+                <div style="border-top: grey ridge 3px;background-color: rgb(74, 156, 167);height: 17cm;">
+                    <img src="img/Christmas Event.png" height="400px" style="margin-left: 25%;margin-top: 30px;box-shadow: 0px -5px 10px 10px #335280;border: groove rgb(164, 202, 207) 4px;">
+                    <p style="padding-left: 18px;">Kegiatan ini biasanya udah ada dari tanggal 6 Desember sampe awal januari. Tradisi ‘Kunci Taon’ sendiri biasanya diselenggarain pas hari Minggu di bulan Januari, sekaligus menutup rangakaian perayaan Natal di bulan Desember. Biasanya akan ada pawai keliling kota dengan kostum yang lucu-lucu.<br>Natal (dari bahasa Portugis yang berarti "kelahiran") adalah hari raya umat Kristen yang diperingati setiap tahun oleh umat Kristiani pada tanggal 25 Desember untuk memperingati hari kelahiran Yesus Kristus. Natal dirayakan dalam kebaktian malam pada tanggal 24 Desember; dan kebaktian pagi tanggal 25 Desember. Beberapa gereja Ortodoks merayakan Natal pada tanggal 6 Januari (lihat pula Epifani).
+                    Dalam tradisi barat, peringatan Natal juga mengandung aspek non-agamawi. Beberapa tradisi Natal yang berasal dari Barat antara lain adalah pohon Natal, kartu Natal, bertukar hadiah antara teman dan anggota keluarga serta kisah tentang Santa Klaus atau Sinterklas. </p>
+                </div>
+            </div>
+            <div id="eeg" style="border-top: ridge goldenrod 6px;border-bottom: ridge goldenrod 6px;background-color: rgb(16, 112, 150);"><div ><p id="title_aboutUs" style="border: black 0px solid;padding: 4px 4px 4px 4px;"><img src="img/easter egg icon.png" height="40px">Easter Egg</p></div>
+                <div style="border-top: grey ridge 3px;background-color: rgb(74, 156, 167);height: 17cm;">
+                    <img src="img/Easter Egg Event.png" height="400px" style="margin-left: 25%;margin-top: 30px;box-shadow: 0px -5px 10px 10px #335280;border: groove rgb(164, 202, 207) 4px;">
+                    <p style="padding-left: 18px;">Leviticus 11: 6 menyatakan bahawa kelinci adalah haiwan najis: "Kelinci, walaupun ia mengunyah biak, ia tidak mempunyai kerongkongan yang terpisah; ia adalah haram bagimu "", Tetapi dalam seni Kristian, ia selalu dikaitkan dengan kelahiran semula dan kebangkitan.
+
+                    Malah, simbol bulatan tiga harish yang disertai oleh telinga mereka telah dijumpai dalam beberapa jenis gereja-gereja di Devon. Seperti banyak simbolisme "kelinci" budaya kami, makna imej ini tetap misterius - dan The Three Hares Project telah ditubuhkan untuk penyelidikan dan dokumentasi kejadian simbol kuno, contoh yang telah dijumpai sejauh China.
+                        
+                    Arnab dan harim juga dikaitkan dengan Mary, ibu Yesus, selama berabad-abad. Persatuan mereka dengan kelahiran perawan berasal dari fakta bahawa hares - sering bercanggah dengan kelinci dengan kelinci - dapat menghasilkan sampah kedua anak-anak sementara masih mengandung yang pertama.  </p>
+                </div>
+            </div>
+            <div id="camp" style="border-top: ridge goldenrod 6px;border-bottom: ridge goldenrod 6px;background-color: rgb(16, 112, 150);"><div ><p id="title_aboutUs" style="border: black 0px solid;padding: 4px 4px 4px 4px;"><img src="img/camp icon.png" height="40px">Bible Camp</p></div>
+                <div style="border-top: grey ridge 3px;background-color: rgb(74, 156, 167);height: 17cm;">
+                    <img src="img/Bible Camp Event.png" height="400px" style="margin-left: 25%;margin-top: 30px;box-shadow: 0px -5px 10px 10px #335280;border: groove rgb(164, 202, 207) 4px;">
+                    <p style="padding-left: 18px;"> Ketika Tuhan mengizinkan terjadinya pandemi Covid-19 di tahun 2020 ini, Tuhan juga mengizinkan Bible Camp Nasional 2020 (BCN 2020) tetap diadakan oleh STEMI. Bible Camp Nasional 2020 diadakan secara LIVE streaming agar dapat diikuti oleh lebih banyak anak-anak lagi sampai ke seluruh pelosok Indonesia, bahkan seluruh penjuru dunia, sejauh koneksi internet memungkinkan. Karena BCN 2020 dilakukan secara LIVE Streaming, peranan orang tua sangat besar untuk mengajak dan menanamkan pengertian bahwa ini adalah acara yang berbeda dengan acara streaming lainnya di internet. BCN 2020 adalah salah satu ibadah anak-anak dalam bentuk online streaming. Dengan demikian orang tua diharapkan mendampingi anak-anak pada saat BCN 2020. </p>
+                </div>
+            </div>
+            
+        </div>
+            
+        <div class="footer" style="border: ridge rgb(222, 236, 18) 4px;background-color: rgb(11, 99, 102);margin-top: 0;">
+            <h1 style="text-align: center;color:white;margin-left: 0%;">
+                <div style="float: left; font-size: 14px;color: rgba(255, 255, 255, 0.87);text-shadow: none;margin-right: 10px;">
+                    <img src="img/LogoUKM.png" height="40px"><br>Logo asset of <br>Feodora.F.F.F.Funay</div> 
+                UKM  Christian Spiritual Unit
+                <div style="float: right; font-size: 14px;color: rgba(6, 71, 73, 0.87);text-shadow: none;margin-right: 10px;"><br>UKM Inspired by first person<br>that i found identic to me<br> left corner bott room</div> 
+            </h1>
+        </div>
+    </body>
+</html>
